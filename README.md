@@ -2,7 +2,7 @@
 Logica para caja registradora con moneda de EE.UU usando JavaScript.
 Este projecto de freeCodeCamp pedia lo siguiente:
 
-  Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
+"Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument.
 
 cid is a 2D array listing available currency.
 
@@ -12,4 +12,4 @@ Return {status: "INSUFFICIENT_FUNDS", change: []} if cash-in-drawer is less than
 
 Return {status: "CLOSED", change: [...]} with cash-in-drawer as the value for the key change if it is equal to the change due.
 
-Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key.
+Otherwise, return {status: "OPEN", change: [...]}, with the change due in coins and bills, sorted in highest to lowest order, as the value of the change key."
